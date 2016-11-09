@@ -1,0 +1,42 @@
+﻿@model MvcEight.Models.Exam
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Exam</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ExamDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExamDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExamSubject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExamSubject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExamSyllabus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExamSyllabus)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

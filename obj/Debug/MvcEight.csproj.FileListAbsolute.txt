@@ -77,6 +77,5 @@ E:\Projects\MvcEight\bin\Microsoft.Owin.Security.OAuth.xml
 E:\Projects\MvcEight\bin\Microsoft.Owin.Security.Google.xml
 E:\Projects\MvcEight\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Projects\MvcEight\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\Projects\MvcEight\obj\Debug\MvcEight.csprojResolveAssemblyReference.cache
 E:\Projects\MvcEight\obj\Debug\MvcEight.dll
 E:\Projects\MvcEight\obj\Debug\MvcEight.pdb
