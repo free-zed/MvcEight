@@ -17,11 +17,14 @@ namespace MvcEight.DAL
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Holiday> Holidays { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Bengali> Bengalis { get; set; }
+       
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
         
     }
 }

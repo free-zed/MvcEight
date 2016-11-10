@@ -26,5 +26,10 @@ namespace MvcEight.Controllers
 
             return View();
         }
+
+        public ActionResult ClassOne()
+        {
+            return View();
+        }
     }
 }

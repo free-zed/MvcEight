@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BengaliController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\ExamController.cs" />
     <Compile Include="Controllers\HolidayController.cs" />
@@ -206,7 +207,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611101251109_InitialCreate.cs" />
+    <Compile Include="Migrations\201611101251109_InitialCreate.Designer.cs">
+      <DependentUpon>201611101251109_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611101825509_mg1.cs" />
+    <Compile Include="Migrations\201611101825509_mg1.Designer.cs">
+      <DependentUpon>201611101825509_mg1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Bengali.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Exam.cs" />
     <Compile Include="Models\Holiday.cs" />
@@ -290,6 +301,12 @@
     <Content Include="Views\Event\Details.cshtml" />
     <Content Include="Views\Event\Edit.cshtml" />
     <Content Include="Views\Event\Index.cshtml" />
+    <Content Include="Views\Home\ClassOne.cshtml" />
+    <Content Include="Views\Bengali\Create.cshtml" />
+    <Content Include="Views\Bengali\Delete.cshtml" />
+    <Content Include="Views\Bengali\Details.cshtml" />
+    <Content Include="Views\Bengali\Edit.cshtml" />
+    <Content Include="Views\Bengali\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -301,6 +318,14 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611101251109_InitialCreate.resx">
+      <DependentUpon>201611101251109_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611101825509_mg1.resx">
+      <DependentUpon>201611101825509_mg1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
