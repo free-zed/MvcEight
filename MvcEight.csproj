@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
+    <Compile Include="Controllers\BengaliTwoController.cs" />
     <Compile Include="Controllers\EnglishController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\ExamController.cs" />
@@ -212,9 +213,14 @@
     <Compile Include="Migrations\201611110840454_mg1.Designer.cs">
       <DependentUpon>201611110840454_mg1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611111610327_mg2.cs" />
+    <Compile Include="Migrations\201611111610327_mg2.Designer.cs">
+      <DependentUpon>201611111610327_mg2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bengali.cs" />
+    <Compile Include="Models\BengaliTwo.cs" />
     <Compile Include="Models\English.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Exam.cs" />
@@ -310,6 +316,20 @@
     <Content Include="Views\English\Details.cshtml" />
     <Content Include="Views\English\Edit.cshtml" />
     <Content Include="Views\English\Index.cshtml" />
+    <Content Include="Views\Home\ClassTwo.cshtml" />
+    <Content Include="Views\Home\ClassThree.cshtml" />
+    <Content Include="Views\Home\ClassFour.cshtml" />
+    <Content Include="Views\Home\ClassFive.cshtml" />
+    <Content Include="Views\Home\ClassSix.cshtml" />
+    <Content Include="Views\Home\ClassSeven.cshtml" />
+    <Content Include="Views\Home\ClassEight.cshtml" />
+    <Content Include="Views\Home\ClassNine.cshtml" />
+    <Content Include="Views\Home\ClassTen.cshtml" />
+    <Content Include="Views\BengaliTwo\Create.cshtml" />
+    <Content Include="Views\BengaliTwo\Delete.cshtml" />
+    <Content Include="Views\BengaliTwo\Details.cshtml" />
+    <Content Include="Views\BengaliTwo\Edit.cshtml" />
+    <Content Include="Views\BengaliTwo\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -325,6 +345,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611110840454_mg1.resx">
       <DependentUpon>201611110840454_mg1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611111610327_mg2.resx">
+      <DependentUpon>201611111610327_mg2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

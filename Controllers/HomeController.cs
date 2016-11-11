@@ -31,5 +31,51 @@ namespace MvcEight.Controllers
         {
             return View();
         }
+
+        public ActionResult ClassTwo()
+        {
+            return View();
+        }
+
+        public ActionResult ClassThree()
+        {
+            return View();
+        }
+
+        public ActionResult ClassFour()
+        {
+            return View();
+        }
+
+        public ActionResult ClassFive()
+        {
+            return View();
+        }
+
+        public ActionResult ClassSix()
+        {
+            return View();
+        }
+
+        public ActionResult ClassSeven()
+        {
+            return View();
+        }
+
+        public ActionResult ClassEight()
+        {
+            return View();
+        }
+
+        public ActionResult ClassNine()
+        {
+            return View();
+        }
+
+        public ActionResult ClassTen()
+        {
+            return View();
+        }
+
     }
 }
