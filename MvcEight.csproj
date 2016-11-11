@@ -197,9 +197,11 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
+    <Compile Include="Controllers\BengaliFourController.cs" />
     <Compile Include="Controllers\BengaliThreeController.cs" />
     <Compile Include="Controllers\BengaliTwoController.cs" />
     <Compile Include="Controllers\EnglishController.cs" />
+    <Compile Include="Controllers\EnglishFourController.cs" />
     <Compile Include="Controllers\EnglishThreeController.cs" />
     <Compile Include="Controllers\EnglishTwoController.cs" />
     <Compile Include="Controllers\EventController.cs" />
@@ -232,12 +234,22 @@
     <Compile Include="Migrations\201611111909241_mg5.Designer.cs">
       <DependentUpon>201611111909241_mg5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611111923421_mg6.cs" />
+    <Compile Include="Migrations\201611111923421_mg6.Designer.cs">
+      <DependentUpon>201611111923421_mg6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611111949210_mg7.cs" />
+    <Compile Include="Migrations\201611111949210_mg7.Designer.cs">
+      <DependentUpon>201611111949210_mg7.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bengali.cs" />
+    <Compile Include="Models\BengaliFour.cs" />
     <Compile Include="Models\BengaliThree.cs" />
     <Compile Include="Models\BengaliTwo.cs" />
     <Compile Include="Models\English.cs" />
+    <Compile Include="Models\EnglishFour.cs" />
     <Compile Include="Models\EnglishThree.cs" />
     <Compile Include="Models\EnglishTwo.cs" />
     <Compile Include="Models\Event.cs" />
@@ -363,6 +375,16 @@
     <Content Include="Views\EnglishThree\Details.cshtml" />
     <Content Include="Views\EnglishThree\Edit.cshtml" />
     <Content Include="Views\EnglishThree\Index.cshtml" />
+    <Content Include="Views\BengaliFour\Create.cshtml" />
+    <Content Include="Views\BengaliFour\Delete.cshtml" />
+    <Content Include="Views\BengaliFour\Details.cshtml" />
+    <Content Include="Views\BengaliFour\Edit.cshtml" />
+    <Content Include="Views\BengaliFour\Index.cshtml" />
+    <Content Include="Views\EnglishFour\Create.cshtml" />
+    <Content Include="Views\EnglishFour\Delete.cshtml" />
+    <Content Include="Views\EnglishFour\Details.cshtml" />
+    <Content Include="Views\EnglishFour\Edit.cshtml" />
+    <Content Include="Views\EnglishFour\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -390,6 +412,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611111909241_mg5.resx">
       <DependentUpon>201611111909241_mg5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611111923421_mg6.resx">
+      <DependentUpon>201611111923421_mg6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611111949210_mg7.resx">
+      <DependentUpon>201611111949210_mg7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
