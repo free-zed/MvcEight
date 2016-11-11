@@ -20,6 +20,9 @@ namespace MvcEight.DAL
         public DbSet<Bengali> Bengalis { get; set; }
         public DbSet<English> Englishs { get; set; }
         public DbSet<BengaliTwo> BengaliTwos { get; set; }
+        public DbSet<EnglishTwo> EnglishTwo { get; set; }
+        public DbSet<BengaliThree> BengaliThree { get; set; }
+        public DbSet<EnglishThree> EnglishThree { get; set; }
        
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
