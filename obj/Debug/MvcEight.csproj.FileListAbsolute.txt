@@ -79,6 +79,5 @@ E:\Projects\MvcEight\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Projects\MvcEight\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\Projects\MvcEight\obj\Debug\MvcEight.dll
 E:\Projects\MvcEight\obj\Debug\MvcEight.pdb
-E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.InitialCreate.resources
-E:\Projects\MvcEight\obj\Debug\MvcEight.csproj.GenerateResource.Cache
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg1.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.csproj.GenerateResource.Cache

@@ -3,10 +3,38 @@ namespace MvcEight.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class mg1 : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.Bengali",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Roll = c.String(),
+                        SBA = c.Double(nullable: false),
+                        Final = c.Double(nullable: false),
+                        Total = c.Double(nullable: false),
+                        GPA = c.Double(nullable: false),
+                        Grade = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
+            
+            CreateTable(
+                "dbo.English",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Roll = c.String(),
+                        SBA = c.Double(nullable: false),
+                        Final = c.Double(nullable: false),
+                        Total = c.Double(nullable: false),
+                        GPA = c.Double(nullable: false),
+                        Grade = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
+            
             CreateTable(
                 "dbo.Event",
                 c => new
@@ -49,6 +77,8 @@ namespace MvcEight.Migrations
             DropTable("dbo.Holiday");
             DropTable("dbo.Exam");
             DropTable("dbo.Event");
+            DropTable("dbo.English");
+            DropTable("dbo.Bengali");
         }
     }
 }
