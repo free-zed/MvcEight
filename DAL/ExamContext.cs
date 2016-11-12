@@ -29,7 +29,18 @@ namespace MvcEight.DAL
         public DbSet<BengaliTwoFive> BengaliTwoFive { get; set; }
         public DbSet<EnglishOneFive> EnglishOneFives { get; set; }
         public DbSet<EnglishTwoFive> EnglishTwoFives { get; set; }
-       
+        public DbSet<BengaliOneSix> BengaliOneSixs { get; set; }
+        public DbSet<BengaliTwoSix> BengaliTwoSixs { get; set; }
+        public DbSet<EnglishOneSix> EnglishOneSixs { get; set; }
+        public DbSet<EnglishTwoSix> EnglishTwoSixs { get; set; }
+        public DbSet<BengaliOneSeven> BengaliOneSevens { get; set; }
+        public DbSet<BengaliTwoSeven> BengaliTwoSevens { get; set; }
+        public DbSet<EnglishOneSeven> EnglishOneSevens { get; set; }
+        public DbSet<EnglishTwoSeven> EnglishTwoSevens { get; set; }
+        public DbSet<BengaliOneEight> BengaliOneEights { get; set; }
+        public DbSet<BengaliTwoEight> BengaliTwoEights { get; set; }
+        public DbSet<EnglishOneEight> EnglishOneEights { get; set; }
+        public DbSet<EnglishTwoEight> EnglishTwoEights { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

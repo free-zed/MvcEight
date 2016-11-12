@@ -91,3 +91,15 @@ E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg8.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg9.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg10.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg11.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg12.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg13.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg14.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg15.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg16.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg17.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg18.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg19.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg20.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg21.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg22.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg23.resources
