@@ -1,0 +1,66 @@
+﻿@model MvcEight.Models.BengaliTwoNine
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BengaliTwoNine</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Roll)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Roll)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SBA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SBA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Final)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Final)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Total)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GPA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GPA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Grade)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

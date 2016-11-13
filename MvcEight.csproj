@@ -200,26 +200,34 @@
     <Compile Include="Controllers\BengaliFourController.cs" />
     <Compile Include="Controllers\BengaliOneEightController.cs" />
     <Compile Include="Controllers\BengaliOneFiveController.cs" />
+    <Compile Include="Controllers\BengaliOneNineController.cs" />
     <Compile Include="Controllers\BengaliOneSevenController.cs" />
     <Compile Include="Controllers\BengaliOneSixController.cs" />
+    <Compile Include="Controllers\BengaliOneTenController.cs" />
     <Compile Include="Controllers\BengaliThreeController.cs" />
     <Compile Include="Controllers\BengaliTwoController.cs" />
     <Compile Include="Controllers\BengaliTwoEightController.cs" />
     <Compile Include="Controllers\BengaliTwoFiveController.cs" />
+    <Compile Include="Controllers\BengaliTwoNineController.cs" />
     <Compile Include="Controllers\BengaliTwoSevenController.cs" />
     <Compile Include="Controllers\BengaliTwoSixController.cs" />
+    <Compile Include="Controllers\BengaliTwoTenController.cs" />
     <Compile Include="Controllers\EnglishController.cs" />
     <Compile Include="Controllers\EnglishFourController.cs" />
     <Compile Include="Controllers\EnglishOneEightController.cs" />
     <Compile Include="Controllers\EnglishOneFiveController.cs" />
+    <Compile Include="Controllers\EnglishOneNineController.cs" />
     <Compile Include="Controllers\EnglishOneSevenController.cs" />
     <Compile Include="Controllers\EnglishOneSixController.cs" />
+    <Compile Include="Controllers\EnglishOneTenController.cs" />
     <Compile Include="Controllers\EnglishThreeController.cs" />
     <Compile Include="Controllers\EnglishTwoController.cs" />
     <Compile Include="Controllers\EnglishTwoEightController.cs" />
     <Compile Include="Controllers\EnglishTwoFiveController.cs" />
+    <Compile Include="Controllers\EnglishTwoNineController.cs" />
     <Compile Include="Controllers\EnglishTwoSevenController.cs" />
     <Compile Include="Controllers\EnglishTwoSixController.cs" />
+    <Compile Include="Controllers\EnglishTwoTenController.cs" />
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\ExamController.cs" />
     <Compile Include="Controllers\HolidayController.cs" />
@@ -322,32 +330,72 @@
     <Compile Include="Migrations\201611121306531_mg23.Designer.cs">
       <DependentUpon>201611121306531_mg23.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611130941409_mg24.cs" />
+    <Compile Include="Migrations\201611130941409_mg24.Designer.cs">
+      <DependentUpon>201611130941409_mg24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131331273_mg25.cs" />
+    <Compile Include="Migrations\201611131331273_mg25.Designer.cs">
+      <DependentUpon>201611131331273_mg25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131345569_mg26.cs" />
+    <Compile Include="Migrations\201611131345569_mg26.Designer.cs">
+      <DependentUpon>201611131345569_mg26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131616522_mg27.cs" />
+    <Compile Include="Migrations\201611131616522_mg27.Designer.cs">
+      <DependentUpon>201611131616522_mg27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131828029_mg28.cs" />
+    <Compile Include="Migrations\201611131828029_mg28.Designer.cs">
+      <DependentUpon>201611131828029_mg28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131839453_mg29.cs" />
+    <Compile Include="Migrations\201611131839453_mg29.Designer.cs">
+      <DependentUpon>201611131839453_mg29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131902035_mg30.cs" />
+    <Compile Include="Migrations\201611131902035_mg30.Designer.cs">
+      <DependentUpon>201611131902035_mg30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611131931484_mg31.cs" />
+    <Compile Include="Migrations\201611131931484_mg31.Designer.cs">
+      <DependentUpon>201611131931484_mg31.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bengali.cs" />
     <Compile Include="Models\BengaliFour.cs" />
     <Compile Include="Models\BengaliOneEight.cs" />
     <Compile Include="Models\BengaliOneFive.cs" />
+    <Compile Include="Models\BengaliOneNine.cs" />
     <Compile Include="Models\BengaliOneSeven.cs" />
     <Compile Include="Models\BengaliOneSix.cs" />
+    <Compile Include="Models\BengaliOneTen.cs" />
     <Compile Include="Models\BengaliThree.cs" />
     <Compile Include="Models\BengaliTwo.cs" />
     <Compile Include="Models\BengaliTwoEight.cs" />
     <Compile Include="Models\BengaliTwoFive.cs" />
+    <Compile Include="Models\BengaliTwoNine.cs" />
     <Compile Include="Models\BengaliTwoSeven.cs" />
     <Compile Include="Models\BengaliTwoSix.cs" />
+    <Compile Include="Models\BengaliTwoTen.cs" />
     <Compile Include="Models\English.cs" />
     <Compile Include="Models\EnglishFour.cs" />
     <Compile Include="Models\EnglishOneEight.cs" />
     <Compile Include="Models\EnglishOneFive.cs" />
+    <Compile Include="Models\EnglishOneNine.cs" />
     <Compile Include="Models\EnglishOneSeven.cs" />
     <Compile Include="Models\EnglishOneSix.cs" />
+    <Compile Include="Models\EnglishOneTen.cs" />
     <Compile Include="Models\EnglishThree.cs" />
     <Compile Include="Models\EnglishTwo.cs" />
     <Compile Include="Models\EnglishTwoEight.cs" />
     <Compile Include="Models\EnglishTwoFive.cs" />
+    <Compile Include="Models\EnglishTwoNine.cs" />
     <Compile Include="Models\EnglishTwoSeven.cs" />
     <Compile Include="Models\EnglishTwoSix.cs" />
+    <Compile Include="Models\EnglishTwoTen.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Exam.cs" />
     <Compile Include="Models\Holiday.cs" />
@@ -561,6 +609,46 @@
     <Content Include="Views\EnglishTwoEight\Details.cshtml" />
     <Content Include="Views\EnglishTwoEight\Edit.cshtml" />
     <Content Include="Views\EnglishTwoEight\Index.cshtml" />
+    <Content Include="Views\BengaliOneNine\Create.cshtml" />
+    <Content Include="Views\BengaliOneNine\Delete.cshtml" />
+    <Content Include="Views\BengaliOneNine\Details.cshtml" />
+    <Content Include="Views\BengaliOneNine\Edit.cshtml" />
+    <Content Include="Views\BengaliOneNine\Index.cshtml" />
+    <Content Include="Views\BengaliTwoNine\Create.cshtml" />
+    <Content Include="Views\BengaliTwoNine\Delete.cshtml" />
+    <Content Include="Views\BengaliTwoNine\Details.cshtml" />
+    <Content Include="Views\BengaliTwoNine\Edit.cshtml" />
+    <Content Include="Views\BengaliTwoNine\Index.cshtml" />
+    <Content Include="Views\EnglishOneNine\Create.cshtml" />
+    <Content Include="Views\EnglishOneNine\Delete.cshtml" />
+    <Content Include="Views\EnglishOneNine\Details.cshtml" />
+    <Content Include="Views\EnglishOneNine\Edit.cshtml" />
+    <Content Include="Views\EnglishOneNine\Index.cshtml" />
+    <Content Include="Views\EnglishTwoNine\Create.cshtml" />
+    <Content Include="Views\EnglishTwoNine\Delete.cshtml" />
+    <Content Include="Views\EnglishTwoNine\Details.cshtml" />
+    <Content Include="Views\EnglishTwoNine\Edit.cshtml" />
+    <Content Include="Views\EnglishTwoNine\Index.cshtml" />
+    <Content Include="Views\BengaliOneTen\Create.cshtml" />
+    <Content Include="Views\BengaliOneTen\Delete.cshtml" />
+    <Content Include="Views\BengaliOneTen\Details.cshtml" />
+    <Content Include="Views\BengaliOneTen\Edit.cshtml" />
+    <Content Include="Views\BengaliOneTen\Index.cshtml" />
+    <Content Include="Views\BengaliTwoTen\Create.cshtml" />
+    <Content Include="Views\BengaliTwoTen\Delete.cshtml" />
+    <Content Include="Views\BengaliTwoTen\Details.cshtml" />
+    <Content Include="Views\BengaliTwoTen\Edit.cshtml" />
+    <Content Include="Views\BengaliTwoTen\Index.cshtml" />
+    <Content Include="Views\EnglishOneTen\Create.cshtml" />
+    <Content Include="Views\EnglishOneTen\Delete.cshtml" />
+    <Content Include="Views\EnglishOneTen\Details.cshtml" />
+    <Content Include="Views\EnglishOneTen\Edit.cshtml" />
+    <Content Include="Views\EnglishOneTen\Index.cshtml" />
+    <Content Include="Views\EnglishTwoTen\Create.cshtml" />
+    <Content Include="Views\EnglishTwoTen\Delete.cshtml" />
+    <Content Include="Views\EnglishTwoTen\Details.cshtml" />
+    <Content Include="Views\EnglishTwoTen\Edit.cshtml" />
+    <Content Include="Views\EnglishTwoTen\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -642,6 +730,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611121306531_mg23.resx">
       <DependentUpon>201611121306531_mg23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611130941409_mg24.resx">
+      <DependentUpon>201611130941409_mg24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131331273_mg25.resx">
+      <DependentUpon>201611131331273_mg25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131345569_mg26.resx">
+      <DependentUpon>201611131345569_mg26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131616522_mg27.resx">
+      <DependentUpon>201611131616522_mg27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131828029_mg28.resx">
+      <DependentUpon>201611131828029_mg28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131839453_mg29.resx">
+      <DependentUpon>201611131839453_mg29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131902035_mg30.resx">
+      <DependentUpon>201611131902035_mg30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611131931484_mg31.resx">
+      <DependentUpon>201611131931484_mg31.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

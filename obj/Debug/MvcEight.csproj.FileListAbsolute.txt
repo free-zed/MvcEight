@@ -103,3 +103,12 @@ E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg20.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg21.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg22.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg23.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg24.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg25.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg26.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg27.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg28.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg29.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg30.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.csprojResolveAssemblyReference.cache
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg31.resources
