@@ -116,3 +116,8 @@ E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg33.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg34.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg35.resources
 E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg36.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg37.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg38.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg39.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg40.resources
+E:\Projects\MvcEight\obj\Debug\MvcEight.Migrations.mg41.resources

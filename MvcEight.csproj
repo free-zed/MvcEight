@@ -212,9 +212,14 @@
     <Compile Include="Controllers\BengaliTwoSevenController.cs" />
     <Compile Include="Controllers\BengaliTwoSixController.cs" />
     <Compile Include="Controllers\BengaliTwoTenController.cs" />
+    <Compile Include="Controllers\ClassEightStudentController.cs" />
     <Compile Include="Controllers\ClassFiveStudentController.cs" />
     <Compile Include="Controllers\ClassFourStudentController.cs" />
+    <Compile Include="Controllers\ClassNineStudentController.cs" />
     <Compile Include="Controllers\ClassOneStudentController.cs" />
+    <Compile Include="Controllers\ClassSevenStudentController.cs" />
+    <Compile Include="Controllers\ClassSixStudentController.cs" />
+    <Compile Include="Controllers\ClassTenStudentController.cs" />
     <Compile Include="Controllers\ClassThreeStudentController.cs" />
     <Compile Include="Controllers\ClassTwoStudentController.cs" />
     <Compile Include="Controllers\EnglishController.cs" />
@@ -387,6 +392,26 @@
     <Compile Include="Migrations\201611161556412_mg36.Designer.cs">
       <DependentUpon>201611161556412_mg36.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611161616376_mg37.cs" />
+    <Compile Include="Migrations\201611161616376_mg37.Designer.cs">
+      <DependentUpon>201611161616376_mg37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161702003_mg38.cs" />
+    <Compile Include="Migrations\201611161702003_mg38.Designer.cs">
+      <DependentUpon>201611161702003_mg38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161718550_mg39.cs" />
+    <Compile Include="Migrations\201611161718550_mg39.Designer.cs">
+      <DependentUpon>201611161718550_mg39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161724543_mg40.cs" />
+    <Compile Include="Migrations\201611161724543_mg40.Designer.cs">
+      <DependentUpon>201611161724543_mg40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161728108_mg41.cs" />
+    <Compile Include="Migrations\201611161728108_mg41.Designer.cs">
+      <DependentUpon>201611161728108_mg41.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Bengali.cs" />
@@ -405,9 +430,14 @@
     <Compile Include="Models\BengaliTwoSeven.cs" />
     <Compile Include="Models\BengaliTwoSix.cs" />
     <Compile Include="Models\BengaliTwoTen.cs" />
+    <Compile Include="Models\ClassEightStudent.cs" />
     <Compile Include="Models\ClassFiveStudent.cs" />
     <Compile Include="Models\ClassFourStudent.cs" />
+    <Compile Include="Models\ClassNineStudent.cs" />
     <Compile Include="Models\ClassOneStudent.cs" />
+    <Compile Include="Models\ClassSevenStudent.cs" />
+    <Compile Include="Models\ClassSixStudent.cs" />
+    <Compile Include="Models\ClassTenStudent.cs" />
     <Compile Include="Models\ClassThreeStudent.cs" />
     <Compile Include="Models\ClassTwoStudent.cs" />
     <Compile Include="Models\English.cs" />
@@ -704,6 +734,31 @@
     <Content Include="Views\ClassFiveStudent\Details.cshtml" />
     <Content Include="Views\ClassFiveStudent\Edit.cshtml" />
     <Content Include="Views\ClassFiveStudent\Index.cshtml" />
+    <Content Include="Views\ClassSixStudent\Create.cshtml" />
+    <Content Include="Views\ClassSixStudent\Delete.cshtml" />
+    <Content Include="Views\ClassSixStudent\Details.cshtml" />
+    <Content Include="Views\ClassSixStudent\Edit.cshtml" />
+    <Content Include="Views\ClassSixStudent\Index.cshtml" />
+    <Content Include="Views\ClassSevenStudent\Create.cshtml" />
+    <Content Include="Views\ClassSevenStudent\Delete.cshtml" />
+    <Content Include="Views\ClassSevenStudent\Details.cshtml" />
+    <Content Include="Views\ClassSevenStudent\Edit.cshtml" />
+    <Content Include="Views\ClassSevenStudent\Index.cshtml" />
+    <Content Include="Views\ClassEightStudent\Create.cshtml" />
+    <Content Include="Views\ClassEightStudent\Delete.cshtml" />
+    <Content Include="Views\ClassEightStudent\Details.cshtml" />
+    <Content Include="Views\ClassEightStudent\Edit.cshtml" />
+    <Content Include="Views\ClassEightStudent\Index.cshtml" />
+    <Content Include="Views\ClassNineStudent\Create.cshtml" />
+    <Content Include="Views\ClassNineStudent\Delete.cshtml" />
+    <Content Include="Views\ClassNineStudent\Details.cshtml" />
+    <Content Include="Views\ClassNineStudent\Edit.cshtml" />
+    <Content Include="Views\ClassNineStudent\Index.cshtml" />
+    <Content Include="Views\ClassTenStudent\Create.cshtml" />
+    <Content Include="Views\ClassTenStudent\Delete.cshtml" />
+    <Content Include="Views\ClassTenStudent\Details.cshtml" />
+    <Content Include="Views\ClassTenStudent\Edit.cshtml" />
+    <Content Include="Views\ClassTenStudent\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -824,6 +879,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611161556412_mg36.resx">
       <DependentUpon>201611161556412_mg36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161616376_mg37.resx">
+      <DependentUpon>201611161616376_mg37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161702003_mg38.resx">
+      <DependentUpon>201611161702003_mg38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161718550_mg39.resx">
+      <DependentUpon>201611161718550_mg39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161724543_mg40.resx">
+      <DependentUpon>201611161724543_mg40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161728108_mg41.resx">
+      <DependentUpon>201611161728108_mg41.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

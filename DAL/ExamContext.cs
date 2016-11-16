@@ -56,6 +56,11 @@ namespace MvcEight.DAL
         public DbSet<ClassThreeStudent> ClassThreeStudents { get; set; }
         public DbSet<ClassFourStudent> ClassFourStudents { get; set; }
         public DbSet<ClassFiveStudent> ClassFiveStudents { get; set; }
+        public DbSet<ClassSixStudent> ClassSixStudents { get; set; }
+        public DbSet<ClassSevenStudent> ClassSevenStudents { get; set; }
+        public DbSet<ClassEightStudent> ClassEightStudents { get; set; }
+        public DbSet<ClassNineStudent> ClassNineStudents { get; set; }
+        public DbSet<ClassTenStudent> ClassTenStudents { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
