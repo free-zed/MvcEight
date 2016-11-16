@@ -3,14 +3,21 @@
     ViewBag.Title = "ClassOne";
 }
 
-<h2>ClassOnes</h2>
 
-<div style="padding:5px; background: rgba(0,0,0,0.2);text-align:center">
+@*<div style="padding:5px; background: rgba(0,0,0,0.2);text-align:center">
 
         @Html.ActionLink("Bengali", "Index", "Bengali")
         @Html.ActionLink("English", "Index", "English")
 
+</div>*@
+<div class="container">
+    <h2>Class One</h2>
+    <div class="well">@Html.ActionLink("Bengali", "Index", "Bengali")</div>
+    <div class="well">@Html.ActionLink("English", "Index", "English")</div>
+    <div class="well">@Html.ActionLink("Mathematics", "Index", "Mathematics")</div>
 </div>
+
+
 
 
 

@@ -23,10 +23,58 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Students", "Students", "Home")</li>
-                    <li>@Html.ActionLink("Teachers", "Teachers", "Home")</li>
+                    @*<li>@Html.ActionLink("Students", "Students", "Home")</li>*@
+                    @*<li>@Html.ActionLink("Teachers", "Teachers", "Home")</li>*@
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Notices<b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Students<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("ClassOne", "Index", "ClassOneStudent")</li>
+                            <li>@Html.ActionLink("ClassTwo", "Index", "ClassTwoStudent")</li>
+                            <li>@Html.ActionLink("ClassThree", "Index", "ClassThreeStudent")</li>
+                            <li>@Html.ActionLink("ClassFour", "Index", "ClassFourStudent")</li>
+                            <li>@Html.ActionLink("ClassFive", "Index", "ClassFiveStudent")</li>
+                            <li>@Html.ActionLink("ClassSix", "Index", "ClassSixStudent")</li>
+                            <li>@Html.ActionLink("ClassSeven", "Index", "ClassSevenStudent")</li>
+                            <li>@Html.ActionLink("ClassEight", "Index", "ClassEightStudent")</li>
+                            <li>@Html.ActionLink("ClassNine", "Index", "ClassNineStudent")</li>
+                            <li>@Html.ActionLink("ClassTen", "Index", "ClassTenStudent")</li>
+                        </ul>
+                    </li>
+                   
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teachers<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("ClassOne", "ClassOneTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassTwo", "ClassTwoTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassThree", "ClassThreeTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassFour", "ClassFourTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassFive", "ClassFiveTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassSix", "ClassSixTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassSeven", "ClassSevenTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassEight", "ClassEightTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassNine", "ClassNineTeacher", "Home")</li>
+                            <li>@Html.ActionLink("ClassTen", "ClassTenTeacher", "Home")</li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("ClassOne", "ClassOneCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassTwo", "ClassTwoCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassThree", "ClassThreeCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassFour", "ClassFourCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassFive", "ClassFiveCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassSix", "ClassSixCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassSeven", "ClassSevenCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassEight", "ClassEightCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassNine", "ClassNineCourse", "Home")</li>
+                            <li>@Html.ActionLink("ClassTen", "ClassTenCourse", "Home")</li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notices<b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>@Html.ActionLink("Exams", "Index", "Exam")</li>
                             <li>@Html.ActionLink("Holidays", "Index", "Holiday")</li>
@@ -37,16 +85,16 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Results<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("ClassOnes", "ClassOne", "Home")</li>
-                            <li>@Html.ActionLink("ClassTwos", "ClassTwo", "Home")</li>
-                            <li>@Html.ActionLink("ClassThrees", "ClassThree", "Home")</li>
-                            <li>@Html.ActionLink("ClassFours", "ClassFour", "Home")</li>
-                            <li>@Html.ActionLink("ClassFives", "ClassFive", "Home")</li>
-                            <li>@Html.ActionLink("ClassSixs", "ClassSix", "Home")</li>
-                            <li>@Html.ActionLink("ClassSevens", "ClassSeven", "Home")</li>
-                            <li>@Html.ActionLink("ClassEights", "ClassEight", "Home")</li>
-                            <li>@Html.ActionLink("ClassNines", "ClassNine", "Home")</li>
-                            <li>@Html.ActionLink("ClassTens", "ClassTen", "Home")</li>
+                            <li>@Html.ActionLink("ClassOne", "ClassOne", "Home")</li>
+                            <li>@Html.ActionLink("ClassTwo", "ClassTwo", "Home")</li>
+                            <li>@Html.ActionLink("ClassThree", "ClassThree", "Home")</li>
+                            <li>@Html.ActionLink("ClassFour", "ClassFour", "Home")</li>
+                            <li>@Html.ActionLink("ClassFive", "ClassFive", "Home")</li>
+                            <li>@Html.ActionLink("ClassSix", "ClassSix", "Home")</li>
+                            <li>@Html.ActionLink("ClassSeven", "ClassSeven", "Home")</li>
+                            <li>@Html.ActionLink("ClassEight", "ClassEight", "Home")</li>
+                            <li>@Html.ActionLink("ClassNine", "ClassNine", "Home")</li>
+                            <li>@Html.ActionLink("ClassTen", "ClassTen", "Home")</li>
                         </ul>
                     </li>
                     

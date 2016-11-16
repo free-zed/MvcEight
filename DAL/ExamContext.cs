@@ -50,6 +50,13 @@ namespace MvcEight.DAL
         public DbSet<EnglishOneTen> EnglishOneTens { get; set; }
         public DbSet<EnglishTwoTen> EnglishTwoTens { get; set; }
 
+        //Students Info Storing
+        public DbSet<ClassOneStudent> ClassOneStudents { get; set; }
+        public DbSet<ClassTwoStudent> ClassTwoStudents { get; set; }
+        public DbSet<ClassThreeStudent> ClassThreeStudents { get; set; }
+        public DbSet<ClassFourStudent> ClassFourStudents { get; set; }
+        public DbSet<ClassFiveStudent> ClassFiveStudents { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
