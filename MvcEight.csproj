@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AllTheTeacherController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
     <Compile Include="Controllers\BengaliFourController.cs" />
     <Compile Include="Controllers\BengaliOneEightController.cs" />
@@ -412,8 +413,13 @@
     <Compile Include="Migrations\201611161728108_mg41.Designer.cs">
       <DependentUpon>201611161728108_mg41.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611181229259_mg42.cs" />
+    <Compile Include="Migrations\201611181229259_mg42.Designer.cs">
+      <DependentUpon>201611181229259_mg42.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AllTheTeacher.cs" />
     <Compile Include="Models\Bengali.cs" />
     <Compile Include="Models\BengaliFour.cs" />
     <Compile Include="Models\BengaliOneEight.cs" />
@@ -759,6 +765,21 @@
     <Content Include="Views\ClassTenStudent\Details.cshtml" />
     <Content Include="Views\ClassTenStudent\Edit.cshtml" />
     <Content Include="Views\ClassTenStudent\Index.cshtml" />
+    <Content Include="Views\AllTheTeacher\Create.cshtml" />
+    <Content Include="Views\AllTheTeacher\Delete.cshtml" />
+    <Content Include="Views\AllTheTeacher\Details.cshtml" />
+    <Content Include="Views\AllTheTeacher\Edit.cshtml" />
+    <Content Include="Views\AllTheTeacher\Index.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassOneTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassTwoTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassThreeTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassFourTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassFiveTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassSixTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassSevenTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassEightTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassNineTeacher.cshtml" />
+    <Content Include="Views\AllTheTeacher\ClassTenTeacher.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -894,6 +915,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611161728108_mg41.resx">
       <DependentUpon>201611161728108_mg41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611181229259_mg42.resx">
+      <DependentUpon>201611181229259_mg42.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

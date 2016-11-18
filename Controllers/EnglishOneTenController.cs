@@ -18,6 +18,7 @@ namespace MvcEight.Controllers
         // GET: EnglishOneTen
         public ActionResult Index()
         {
+          
             return View(db.EnglishOneTens.ToList());
         }
 
