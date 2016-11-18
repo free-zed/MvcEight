@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AllTheCourseController.cs" />
     <Compile Include="Controllers\AllTheTeacherController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
     <Compile Include="Controllers\BengaliFourController.cs" />
@@ -417,8 +418,13 @@
     <Compile Include="Migrations\201611181229259_mg42.Designer.cs">
       <DependentUpon>201611181229259_mg42.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611181538109_mg43.cs" />
+    <Compile Include="Migrations\201611181538109_mg43.Designer.cs">
+      <DependentUpon>201611181538109_mg43.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AllTheCourse.cs" />
     <Compile Include="Models\AllTheTeacher.cs" />
     <Compile Include="Models\Bengali.cs" />
     <Compile Include="Models\BengaliFour.cs" />
@@ -780,6 +786,21 @@
     <Content Include="Views\AllTheTeacher\ClassEightTeacher.cshtml" />
     <Content Include="Views\AllTheTeacher\ClassNineTeacher.cshtml" />
     <Content Include="Views\AllTheTeacher\ClassTenTeacher.cshtml" />
+    <Content Include="Views\AllTheCourse\Create.cshtml" />
+    <Content Include="Views\AllTheCourse\Delete.cshtml" />
+    <Content Include="Views\AllTheCourse\Details.cshtml" />
+    <Content Include="Views\AllTheCourse\Edit.cshtml" />
+    <Content Include="Views\AllTheCourse\Index.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassOneCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassTwoCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassThreeCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassFourCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassFiveCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassSixCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassSevenCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassEightCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassNineCourse.cshtml" />
+    <Content Include="Views\AllTheCourse\ClassTenCourse.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -918,6 +939,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611181229259_mg42.resx">
       <DependentUpon>201611181229259_mg42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611181538109_mg43.resx">
+      <DependentUpon>201611181538109_mg43.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MvcEight.Models.AllTheCourse>
+@{
+    ViewBag.Title = "ClassNineCourse";
+}
+
+<h2>ClassNineCourse</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseTeacher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Division)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseTeacher)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Division)
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

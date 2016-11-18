@@ -65,6 +65,9 @@ namespace MvcEight.DAL
         //AllTeachers Info Storing
         public DbSet<AllTheTeacher> AllTheTeachers { get; set; }
 
+        //AllCourse Info Storing
+        public DbSet<AllTheCourse> AllTheCourses { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
