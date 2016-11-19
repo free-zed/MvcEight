@@ -62,6 +62,9 @@ namespace MvcEight.DAL
         public DbSet<ClassNineStudent> ClassNineStudents { get; set; }
         public DbSet<ClassTenStudent> ClassTenStudents { get; set; }
 
+        //AllStudents Info Storing
+        public DbSet<AllTheStudent> AllTheStudents { get; set; }
+
         //AllTeachers Info Storing
         public DbSet<AllTheTeacher> AllTheTeachers { get; set; }
 

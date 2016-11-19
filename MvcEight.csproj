@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AllTheCourseController.cs" />
+    <Compile Include="Controllers\AllTheStudentController.cs" />
     <Compile Include="Controllers\AllTheTeacherController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
     <Compile Include="Controllers\BengaliFourController.cs" />
@@ -422,9 +423,14 @@
     <Compile Include="Migrations\201611181538109_mg43.Designer.cs">
       <DependentUpon>201611181538109_mg43.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611191111357_mg44.cs" />
+    <Compile Include="Migrations\201611191111357_mg44.Designer.cs">
+      <DependentUpon>201611191111357_mg44.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AllTheCourse.cs" />
+    <Compile Include="Models\AllTheStudent.cs" />
     <Compile Include="Models\AllTheTeacher.cs" />
     <Compile Include="Models\Bengali.cs" />
     <Compile Include="Models\BengaliFour.cs" />
@@ -801,6 +807,11 @@
     <Content Include="Views\AllTheCourse\ClassEightCourse.cshtml" />
     <Content Include="Views\AllTheCourse\ClassNineCourse.cshtml" />
     <Content Include="Views\AllTheCourse\ClassTenCourse.cshtml" />
+    <Content Include="Views\AllTheStudent\Create.cshtml" />
+    <Content Include="Views\AllTheStudent\Delete.cshtml" />
+    <Content Include="Views\AllTheStudent\Details.cshtml" />
+    <Content Include="Views\AllTheStudent\Edit.cshtml" />
+    <Content Include="Views\AllTheStudent\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -942,6 +953,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611181538109_mg43.resx">
       <DependentUpon>201611181538109_mg43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191111357_mg44.resx">
+      <DependentUpon>201611191111357_mg44.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
