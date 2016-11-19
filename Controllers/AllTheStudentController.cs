@@ -47,7 +47,7 @@ namespace MvcEight.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,NameOfClass,Roll,Name,FathersName,MothersName,Email,Cell,Address")] AllTheStudent allTheStudent)
+        public ActionResult Create([Bind(Include = "ID,Year,NameOfClass,Roll,Name,Email,Cell")] AllTheStudent allTheStudent)
         {
             if (ModelState.IsValid)
             {
@@ -79,7 +79,7 @@ namespace MvcEight.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,NameOfClass,Roll,Name,FathersName,MothersName,Email,Cell,Address")] AllTheStudent allTheStudent)
+        public ActionResult Edit([Bind(Include = "ID,Year,NameOfClass,Roll,Name,Email,Cell")] AllTheStudent allTheStudent)
         {
             if (ModelState.IsValid)
             {
@@ -123,6 +123,115 @@ namespace MvcEight.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+
+        public ActionResult ReClassOneStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("One"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+        public ActionResult ReClassTwoStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Two"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassThreeStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Three"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassFourStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Four"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassFiveStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Five"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassSixStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Six"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassSevenStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Seven"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassEightStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Eight"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassNineStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Nine"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
+        }
+
+        public ActionResult ReClassTenStudent()
+        {
+
+
+            IQueryable<AllTheStudent> AllTheStudents = db.AllTheStudents
+            .Where(c => c.NameOfClass.Equals("Ten"));
+            var sql = AllTheStudents.ToString();
+            return View(AllTheStudents.ToList());
+
         }
     }
 }
