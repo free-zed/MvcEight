@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AllTheCourseController.cs" />
+    <Compile Include="Controllers\AllTheResultController.cs" />
     <Compile Include="Controllers\AllTheStudentController.cs" />
     <Compile Include="Controllers\AllTheTeacherController.cs" />
     <Compile Include="Controllers\BengaliController.cs" />
@@ -259,9 +260,14 @@
     <Compile Include="Migrations\201611191255391_mg2.Designer.cs">
       <DependentUpon>201611191255391_mg2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611191638286_mg3.cs" />
+    <Compile Include="Migrations\201611191638286_mg3.Designer.cs">
+      <DependentUpon>201611191638286_mg3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AllTheCourse.cs" />
+    <Compile Include="Models\AllTheResult.cs" />
     <Compile Include="Models\AllTheStudent.cs" />
     <Compile Include="Models\AllTheTeacher.cs" />
     <Compile Include="Models\Bengali.cs" />
@@ -654,6 +660,41 @@
     <Content Include="Views\AllTheStudent\ReClassEightStudent.cshtml" />
     <Content Include="Views\AllTheStudent\ReClassNineStudent.cshtml" />
     <Content Include="Views\AllTheStudent\ReClassTenStudent.cshtml" />
+    <Content Include="Views\AllTheResult\Create.cshtml" />
+    <Content Include="Views\AllTheResult\Delete.cshtml" />
+    <Content Include="Views\AllTheResult\Details.cshtml" />
+    <Content Include="Views\AllTheResult\Edit.cshtml" />
+    <Content Include="Views\AllTheResult\Index.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassOneResult.cshtml" />
+    <Content Include="Views\AllTheResult\ClassOneBengali.cshtml" />
+    <Content Include="Views\AllTheResult\ClassOneEnglish.cshtml" />
+    <Content Include="Views\AllTheResult\ClassOneMathematics.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassTwoResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassThreeResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassFourResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassFiveResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassSixResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassSevenResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassEightResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassNineResult.cshtml" />
+    <Content Include="Views\AllTheResult\ReClassTenResult.cshtml" />
+    <Content Include="Views\AllTheResult\ClassTwoBengali.cshtml" />
+    <Content Include="Views\AllTheResult\ClassTwoEnglish.cshtml" />
+    <Content Include="Views\AllTheResult\ClassTwoMathematics.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeBengaliOne.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeBengaliTwo.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeEnglishOne.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeEnglishTwo.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeMathematics.cshtml" />
+    <Content Include="Views\AllTheResult\ClassThreeScience.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourBengaliOne.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourBengaliTwo.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourEnglishOne.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourEnglishTwo.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourMathematics.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourScience.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourSocialScience.cshtml" />
+    <Content Include="Views\AllTheResult\ClassFourReligion.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -672,6 +713,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611191255391_mg2.resx">
       <DependentUpon>201611191255391_mg2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611191638286_mg3.resx">
+      <DependentUpon>201611191638286_mg3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
