@@ -408,16 +408,258 @@ namespace MvcEight.Controllers
             return View();
         }
 
+        public ActionResult ClassFiveBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("Mathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("Science"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassFiveReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Five") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+
         //Result of Class Six
         public ActionResult ReClassSixResult()
         {
             return View();
         }
 
+        public ActionResult ClassSixBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("Mathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("Science"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSixReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Six") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+
         //Result of Class Seven
         public ActionResult ReClassSevenResult()
         {
             return View();
+        }
+
+        public ActionResult ClassSevenBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("Mathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("Science"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassSevenReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Seven") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
         }
 
         //Result of Class Eight
@@ -426,16 +668,317 @@ namespace MvcEight.Controllers
             return View();
         }
 
+        public ActionResult ClassEightBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("Mathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("Science"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassEightReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Eight") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+
         //Result of Class Nine
         public ActionResult ReClassNineResult()
         {
             return View();
         }
 
+        public ActionResult ClassNineBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineGeneralMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("GeneralMathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineHigherMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("HigherMathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNinePhysics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("Physics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineChemistry()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("Chemistry"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineBiology()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("Biology"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassNineReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Nine") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
         //Result of Class Ten
         public ActionResult ReClassTenResult()
         {
             return View();
+        }
+
+        public ActionResult ClassTenBengaliOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("BengaliOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenBengaliTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("BengaliTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenEnglishOne()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("EnglishOne"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenEnglishTwo()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("EnglishTwo"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenGeneralMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("GeneralMathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenHigherMathematics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("HigherMathematics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenPhysics()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("Physics"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenChemistry()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("Chemistry"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenBiology()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("Biology"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenSocialScience()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("SocialScience"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
+        }
+
+        public ActionResult ClassTenReligion()
+        {
+
+            IQueryable<AllTheResult> AllTheResults = db.AllTheResults
+            .Where(c => c.NameOfClass.Equals("Ten") && c.Subject.Equals("Religion"));
+            var sql = AllTheResults.ToString();
+            return View(AllTheResults.ToList());
+
         }
     }
 }
