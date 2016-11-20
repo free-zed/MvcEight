@@ -1,11 +1,30 @@
 ﻿@model IEnumerable<MvcEight.Models.AllTheCourse>
-@{
+@*@{
     ViewBag.Title = "ClassFourCourse";
-}
+}*@
 
-<h2>ClassFourCourse</h2>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
 
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
 
+    tr:nth-child(even) {
+        background-color: #90EE90;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+<h2 style="text-align:center;">ClassFourCourse</h2>
+<br />
 
 
 <table class="table">

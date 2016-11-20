@@ -1,14 +1,50 @@
 ﻿@model IEnumerable<MvcEight.Models.AllTheStudent>
 
-@{
+@*@{
     ViewBag.Title = "Index";
+}*@
+
+<style>
+    table {
+    border-collapse: collapse;
+    width: 100%;
 }
 
-<h2>Index</h2>
+th, td {
+    text-align: left;
+    padding: 8px;
+}
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+tr:nth-child(even){background-color: #90EE90}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    background-color: lightgreen; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1{
+    border-radius: 12px;
+}
+
+
+</style>
+<h2 style="text-align:center;">All Students Information</h2>
+<br />
+
+
 <table class="table">
     <tr>
         <th>
@@ -53,11 +89,26 @@
             @Html.DisplayFor(modelItem => item.Cell)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Change", "Edit", new { id=item.ID }) |
+           @* @Html.ActionLink("Details", "Details", new { id=item.ID }) |*@
+            @Html.ActionLink("Remove", "Delete", new { id=item.ID })
         </td>
     </tr>
 }
 
 </table>
+
+<hr />
+
+
+<div style="text-align:center;">
+    <button class="button button1">
+        <p style="text-align:center";>
+            @Html.ActionLink("Add New Student", "Create")
+        </p>
+    </button>
+</div>
+
+@*<p style="text-align:center;">
+    @Html.ActionLink("Add New Student", "Create")
+</p>*@
